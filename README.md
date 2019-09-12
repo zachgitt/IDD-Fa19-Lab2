@@ -3,8 +3,8 @@
 Include your responses to the bold questions below. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
 ## Part A. Solder your LCD panel
-
-**Take a picture of your soldered panel and add it here!**
+**Take a picture of your soldered panel and add it here!** <br>
+[Soldered Panel](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/soldered_panel.jpeg)
 
 ## Part B. Writing to the LCD
  
