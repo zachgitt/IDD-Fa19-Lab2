@@ -7,14 +7,17 @@ Include your responses to the bold questions below. Include snippets of code tha
 ![Soldered Panel](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/soldered_panel.jpeg)
 
 ## Part B. Writing to the LCD
- 
-**a. What voltage level do you need to power your display?**
+**a. What voltage level do you need to power your display?** <br>
+5V is required to power the display.
 
-**b. What voltage level do you need to power the display backlight?**
+**b. What voltage level do you need to power the display backlight?** <br>
+3V is required to power the backlight.
    
-**c. What was one mistake you made when wiring up the display? How did you fix it?**
+**c. What was one mistake you made when wiring up the display? How did you fix it?** <br>
+With precision and good fortune, I made no mistakes!
 
-**d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+**d. What line of code do you need to change to make it flash your name instead of "Hello World"?** <br>
+Changing lcd.print("Zach") would print my name instead.
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
