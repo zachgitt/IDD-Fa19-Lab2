@@ -142,5 +142,5 @@ The [code](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/rotarySpeakerLC
 2. Countdown from 5 to 0
 3. Buzz on the Speaker and on the LCD
 4. Reset After 2 Seconds
-[![Rotary Speaker LCD](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/rotarySpeakerLCDthumbnail.png)](https://youtu.be/28Ix02nsFSc)
+[![Rotary Speaker LCD](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/rotarySpeakerLCDthumbnail.png)](https://youtu.be/VuWtbvCIDqo)
 
