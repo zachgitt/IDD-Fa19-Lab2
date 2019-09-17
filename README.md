@@ -50,11 +50,72 @@ void loop() {
 [![Rotary Sensor](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/thumbnail.png)](https://youtu.be/vKqY6U2_1ak)
 
 ## Part D. Make your Arduino sing!
+**a. How would you change the code to make the song play twice as fast?** <br>
+The following was the code used to play the song. Changing it from 1000ms to 500ms note duration played the song at twice the speed.
+```
+/*
+  Melody
 
-**a. How would you change the code to make the song play twice as fast?**
+  Plays a melody
+
+  circuit:
+  - 8 ohm speaker on digital pin 8
+
+  created 21 Jan 2010
+  modified 30 Aug 2011
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  http://www.arduino.cc/en/Tutorial/Tone
+*/
+
+#include "pitches.h"
+
+// notes in the melody:
+int melody[] = {
+  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+};
+
+// note durations: 4 = quarter note, 8 = eighth note, etc.:
+int noteDurations[] = {
+  4, 8, 8, 4, 4, 4, 4, 4
+};
+
+void setup() {
+  // iterate over the notes of the melody:
+  for (int thisNote = 0; thisNote < 8; thisNote++) {
+
+    // to calculate the note duration, take one second divided by the note type.
+    //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
+    int noteDuration = 500 / noteDurations[thisNote];
+    tone(8, melody[thisNote], noteDuration);
+
+    // to distinguish the notes, set a minimum time between them.
+    // the note's duration + 30% seems to work well:
+    int pauseBetweenNotes = noteDuration * 1.30;
+    delay(pauseBetweenNotes);
+    // stop the tone playing:
+    noTone(8);
+  }
+}
+
+void loop() {
+  // no need to repeat the melody.
+}
+```
  
 **b. What song is playing?**
-
+Changing the melody and note durations to the following plays star wars.
+```
+int melody[] = {
+  NOTE_D3,NOTE_D3,NOTE_D3,NOTE_G3,NOTE_D4,NOTE_C4,NOTE_B3,NOTE_A3,NOTE_G4,NOTE_D4, \
+  NOTE_C4,NOTE_B3,NOTE_A3,NOTE_G4,NOTE_D4,NOTE_C4,NOTE_B3,NOTE_C4,NOTE_A3,0};
+ 
+int noteDurations[] = {
+  10,10,10,2,2,10,10,10,2,4, \
+  10,10,10,2,4,10,10,10,2,4};
+```
 
 ## Part E. Make your own timer
 
