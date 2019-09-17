@@ -136,7 +136,11 @@ int noteDurations[] = {
 [![Hey Jude](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/heyjudethumbnail.png)](https://youtu.be/28Ix02nsFSc)
 
 ## Part E. Make your own timer
+**a. Make a short video showing how your timer works, and what happens when time is up!** <br>
+The [code](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/rotarySpeakerLCD.ino) I wrote allows you to interact with the rotary to start the loop:
+1. Twist Rotary to Start Countdown
+2. Countdown from 5 to 0
+3. Buzz on the Speaker and on the LCD
+4. Reset After 2 Seconds
+[![Rotary Speaker LCD](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/rotarySpeakerLCDthumbnail.png)](https://youtu.be/28Ix02nsFSc)
 
-**a. Make a short video showing how your timer works, and what happens when time is up!**
-
-**b. Post a link to the completed lab report your class hub GitHub repo.**
