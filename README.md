@@ -105,7 +105,7 @@ void loop() {
 }
 ```
  
-**b. What song is playing?**
+**b. What song is playing?** <br>
 Changing the melody and note durations to the following plays star wars.
 ```
 int melody[] = {
