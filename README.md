@@ -20,6 +20,7 @@ With precision and good fortune, I made no mistakes!
 Changing lcd.print("Zach") would print my name instead.
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+![Lowly Multimeter](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/lowly_multimeter.jpeg)
 ```
 // include the library code:
 #include <LiquidCrystal.h>
