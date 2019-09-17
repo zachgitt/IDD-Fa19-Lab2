@@ -117,6 +117,24 @@ int noteDurations[] = {
   10,10,10,2,4,10,10,10,2,4};
 ```
 
+**c. HEY JUDE ** <br>
+I wanted to play hey jude on the speaker so I looked up the notes on https://noobnotes.net/hey-jude-the-beatles/ and translated into the arduino pitch notes and estimated the durations per note as saved below.
+```
+int melody[] = {
+  NOTE_C5,NOTE_A4,NOTE_A4,NOTE_C5,NOTE_D5,NOTE_G4, \
+  NOTE_G4,NOTE_A4,NOTE_AS4,NOTE_F5,NOTE_F5,NOTE_E5,NOTE_C5,NOTE_D5,NOTE_C5,NOTE_AS4,NOTE_A4, \
+  NOTE_C5,NOTE_D5,NOTE_D5,NOTE_D5,NOTE_G5,NOTE_F5,NOTE_E5,NOTE_F5,NOTE_D5,NOTE_C5, \
+  NOTE_F4,NOTE_G4,NOTE_A4,NOTE_D5,NOTE_C5,NOTE_C5,NOTE_AS4,NOTE_A4,NOTE_E4,NOTE_F4 
+  };
+ 
+int noteDurations[] = {
+  4,2,8,8,8,1, \
+  8,8,8,2,8,8,8,8,6,8,2, \
+  8,8,6,8,8,8,8,8,8,2, \
+  8,8,8,6,4,8,8,8,8,2};
+```
+[![Hey Jude](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/heyjudethumbnail.png)](https://youtu.be/28Ix02nsFSc)
+
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
