@@ -47,7 +47,7 @@ void loop() {
 
 ## Part C. Using a time-based digital sensor
 **Upload a video of your working rotary encoder here.** <br>
-![Rotary Sensor](https://youtu.be/vKqY6U2_1ak)
+[![Rotary Sensor](https://github.com/zachgitt/IDD-Fa19-Lab2/blob/master/thumbnail.png)](https://youtu.be/vKqY6U2_1ak)
 
 ## Part D. Make your Arduino sing!
 
